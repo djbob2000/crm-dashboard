@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  width: 306px;
+  /* header styles */
+}
+.header__container {
+  width: 306px;
+  /* header styles */
+}
+
+.header__logo {
+  /* Logo styles */
+}
+.logo {
+  width: 37px;
+  height: 37px;
+}
+
+.header__navigation {
+  /* Navigation styles */
+}
+
+.navigation {
+  /* Navigation list styles */
+}
+
+.navigation__item {
+  /* Navigation item styles */
+}
+
+.navigation__icon {
+  /* Navigation icon styles */
+}
+
+.navigation__text {
+  /* Navigation text styles */
+}
+
+.header__user-info {
+  /* User info styles */
+}
+
+.user-info {
+  /* User info container styles */
+}
+
+.user-info__photo {
+  /* User photo styles */
+}
+
+.user-info__login {
+  /* User login styles */
+}
+
+.user-info__role {
+  /* User role styles */
+}
+
+.content {
+  /* Main content styles */
+}
+
+.content__login {
+  /* Login text styles */
+}
+
+.content__search-bar {
+  /* Search bar styles */
+}
+
+.search-bar__input {
+  /* Search input styles */
+}
+
+.search-bar__icon {
+  /* Search icon styles */
+}
+
+.data-table {
+  /* Data table styles */
+}
+
+.table {
+  /* Table styles */
+}
+
+.table__head {
+  /* Table header styles */
+}
+
+.table__row {
+  /* Table row styles */
+}
+
+.table__header {
+  /* Table header cell styles */
+}
+
+.table__body {
+  /* Table body styles */
+}
+
+.table__cell {
+  /* Table cell styles */
+}
+
+.status-btn {
+  /* Status button styles */
+}
+
+.status-btn--active {
+  /* Active status button styles */
+}
+
+.data-info {
+  /* Data info styles */
+}
+
+.data-info__text {
+  /* Data info text styles */
+}
+
+.pagination {
+  /* Pagination styles */
+}
+
+.pagination__button {
+  /* Pagination button styles */
+}
+
+.pagination__page {
+  /* Pagination page styles */
+}

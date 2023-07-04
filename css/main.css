@@ -1,0 +1,311 @@
+:root {
+  --primary-text-color: #292d32;
+  --nav-text-color: #9197b3;
+  --title-text-color: #000;
+  --logo-icon-color: #000000;
+  --active-text-color: #fff;
+  --background-color: #ffffff;
+  --active-icon-color: #ffffff;
+  --secondary-background-color: #fafbff;
+  --active-background: #5932ea;
+  --icon-color: #9197b3;
+  --text-role-color: #757575;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+*:focus-visible {
+  outline: none;
+}
+
+body {
+  height: 100%;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.14px;
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+}
+
+.header {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 306px;
+  height: 100vh;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 37px;
+  padding-bottom: 76px;
+  background: #fff;
+  -webkit-box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.5);
+          box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.5);
+  /* header styles */
+}
+
+.header__container {
+  /* header styles */
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 64px;
+}
+
+.logo__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.logo__icon {
+  width: 37px;
+  height: 37px;
+  margin-right: 8px;
+  fill: var(--logo-icon-color);
+}
+
+.logo__title {
+  color: #000;
+  font-size: 26px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.26px;
+  margin-right: 4px;
+}
+
+.logo__version {
+  color: #838383;
+  font-size: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.1px;
+}
+
+.header__container {
+  padding: 0 28px;
+}
+
+.header__navigation {
+  /* Navigation styles */
+}
+
+.navigation {
+  /* Navigation list styles */
+}
+.navigation__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 11px 8px 11px 11px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  fill: var(--icon-color);
+  color: var(--nav-text-color);
+}
+.navigation__item:active, .navigation__item:hover {
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+  background-color: var(--active-background);
+  fill: var(--active-icon-color);
+  color: var(--active-text-color);
+}
+.navigation__icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.navigation__icon-arrow {
+  width: 16px;
+  height: 16px;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__user-info {
+  margin-top: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user-info {
+  /* User info container styles */
+}
+
+.user-info__photo {
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.user-info__login {
+  color: var(--title-text-color);
+  display: block;
+}
+
+.user-info__role {
+  display: block;
+  color: var(--text-role-color);
+  font-size: 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+
+.content {
+  background-color: var(--secondary-background-color);
+}
+
+.content__login {
+  font-size: 24px;
+  color: var(--title-text-color);
+  /* Login text styles */
+}
+
+.content__search-bar {
+  /* Search bar styles */
+}
+
+.search-bar__input {
+  /* Search input styles */
+}
+
+.search-bar__icon {
+  /* Search icon styles */
+}
+
+.data-table {
+  /* Data table styles */
+}
+
+.table {
+  /* Table styles */
+}
+
+.table__head {
+  /* Table header styles */
+}
+
+.table__row {
+  /* Table row styles */
+}
+
+.table__header {
+  /* Table header cell styles */
+}
+
+.table__body {
+  /* Table body styles */
+}
+
+.table__cell {
+  /* Table cell styles */
+}
+
+.status-btn {
+  /* Status button styles */
+}
+
+.status-btn--active {
+  /* Active status button styles */
+}
+
+.data-info {
+  /* Data info styles */
+}
+
+.data-info__text {
+  /* Data info text styles */
+}
+
+.pagination {
+  /* Pagination styles */
+}
+
+.pagination__button {
+  /* Pagination button styles */
+}
+
+.pagination__page {
+  /* Pagination page styles */
+}/*# sourceMappingURL=main.css.map */
