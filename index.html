@@ -13,137 +13,148 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header">
-      <!-- <div class="header__container"> -->
-      <a href="./index.html" class="logo">
-        <svg class="logo__icon">
-          <use xlink:href="./assets/icons/sprite.svg#logo"></use>
-        </svg>
-        <div class="logo__wrap">
-          <span class="logo__title">Dashboard</span>
-          <span class="logo__version">v.01</span>
-        </div>
-      </a>
-      <nav class="header__navigation">
-        <ul class="navigation">
-          <li class="navigation__item">
-            <svg class="navigation__icon">
-              <use xlink:href="./assets/icons/sprite.svg#dashboard"></use>
-            </svg>
-            <span class="navigation__text">Dashboard</span>
-            <svg class="navigation__icon-arrow">
-              <use xlink:href="./assets/icons/sprite.svg#arrow-right"></use>
-            </svg>
-          </li>
-          <li class="navigation__item">
-            <svg class="navigation__icon">
-              <use xlink:href="./assets/icons/sprite.svg#product"></use>
-            </svg>
-            <span class="navigation__text">Product</span>
-            <svg class="navigation__icon-arrow">
-              <use xlink:href="./assets/icons/sprite.svg#arrow-right"></use>
-            </svg>
-          </li>
-          <li class="navigation__item">
-            <svg class="navigation__icon">
-              <use xlink:href="./assets/icons/sprite.svg#customers"></use>
-            </svg>
-            <span class="navigation__text">Customers</span>
-            <svg class="navigation__icon-arrow">
-              <use xlink:href="./assets/icons/sprite.svg#arrow-right"></use>
-            </svg>
-          </li>
-          <li class="navigation__item">
-            <svg class="navigation__icon">
-              <use xlink:href="./assets/icons/sprite.svg#income"></use>
-            </svg>
-            <span class="navigation__text">Income</span>
-            <svg class="navigation__icon-arrow">
-              <use xlink:href="./assets/icons/sprite.svg#arrow-right"></use>
-            </svg>
-          </li>
-          <li class="navigation__item">
-            <svg class="navigation__icon">
-              <use xlink:href="./assets/icons/sprite.svg#promote"></use>
-            </svg>
-            <span class="navigation__text">Promote</span>
-            <svg class="navigation__icon-arrow">
-              <use xlink:href="./assets/icons/sprite.svg#arrow-right"></use>
-            </svg>
-          </li>
-          <li class="navigation__item">
-            <svg class="navigation__icon">
-              <use xlink:href="./assets/icons/sprite.svg#help"></use>
-            </svg>
-            <span class="navigation__text">Help</span>
-            <svg class="navigation__icon-arrow">
-              <use xlink:href="./assets/icons/sprite.svg#arrow-right"></use>
-            </svg>
-          </li>
-        </ul>
-      </nav>
-      <div class="header__user-info">
-        <img
-          class="user-info__photo"
-          srcset="../assets/images/avatar.jpg 1x, ./assets/images/avatar@2x.jpg 2x"
-          src="./assets/images/avatar.jpg"
-          alt="User Photo"
-        />
-        <div class="user-info">
-          <span class="user-info__login">Evano</span>
-          <span class="user-info__role">Project Manager</span>
-        </div>
-      </div>
-      <!-- </div> -->
-    </header>
-    <main>
-      <section class="content">
-        <h2 class="content__login">Hello Evano 👋🏼,</h2>
-        <div class="content__search-bar">
-          <input class="search-bar__input" type="text" placeholder="Search..." />
-          <i class="search-bar__icon"></i>
-        </div>
-        <div class="data-table">
-          <table class="table">
-            <thead class="table__head">
-              <tr class="table__row">
-                <th class="table__header">Customer Name</th>
-                <th class="table__header">Company</th>
-                <th class="table__header">Phone number</th>
-                <th class="table__header">Email</th>
-                <th class="table__header">Country</th>
-                <th class="table__header">Status</th>
-              </tr>
-            </thead>
-            <tbody class="table__body">
-              <tr class="table__row">
-                <td class="table__cell">John Doe</td>
-                <td class="table__cell">ABC Inc.</td>
-                <td class="table__cell">123456789</td>
-                <td class="table__cell">johndoe@example.com</td>
-                <td class="table__cell">USA</td>
-                <td class="table__cell">
-                  <button class="status-btn status-btn--active">Active</button>
-                </td>
-              </tr>
-              <!-- Add more rows here -->
-            </tbody>
-          </table>
-        </div>
-        <div class="data-info">
-          <p class="data-info__text">Showing data 1 to 8 of 256K entries</p>
-          <div class="pagination">
-            <button class="pagination__button">&lt;</button>
-            <span class="pagination__page">1</span>
-            <span class="pagination__page">2</span>
-            <span class="pagination__page">3</span>
-            <span class="pagination__page">4</span>
-            <span class="pagination__page">...</span>
-            <span class="pagination__page">40</span>
-            <button class="pagination__button">&gt;</button>
+    <div class="container">
+      <header class="header">
+        <!-- <div class="header__container"> -->
+        <a href="./index.html" class="logo">
+          <svg class="logo__icon">
+            <use xlink:href="./assets/icons/sprite.svg#logo"></use>
+          </svg>
+          <div class="logo__wrap">
+            <span class="logo__title">Dashboard</span>
+            <span class="logo__version">v.01</span>
+          </div>
+        </a>
+        <nav class="header__navigation">
+          <ul class="navigation">
+            <li class="navigation__item">
+              <svg class="navigation__icon">
+                <use xlink:href="./assets/icons/sprite.svg#dashboard"></use>
+              </svg>
+              <span class="navigation__text">Dashboard</span>
+              <svg class="navigation__icon-arrow">
+                <use xlink:href="./assets/icons/sprite.svg#arrow-right"></use>
+              </svg>
+            </li>
+            <li class="navigation__item">
+              <svg class="navigation__icon">
+                <use xlink:href="./assets/icons/sprite.svg#product"></use>
+              </svg>
+              <span class="navigation__text">Product</span>
+              <svg class="navigation__icon-arrow">
+                <use xlink:href="./assets/icons/sprite.svg#arrow-right"></use>
+              </svg>
+            </li>
+            <li class="navigation__item">
+              <svg class="navigation__icon">
+                <use xlink:href="./assets/icons/sprite.svg#customers"></use>
+              </svg>
+              <span class="navigation__text">Customers</span>
+              <svg class="navigation__icon-arrow">
+                <use xlink:href="./assets/icons/sprite.svg#arrow-right"></use>
+              </svg>
+            </li>
+            <li class="navigation__item">
+              <svg class="navigation__icon">
+                <use xlink:href="./assets/icons/sprite.svg#income"></use>
+              </svg>
+              <span class="navigation__text">Income</span>
+              <svg class="navigation__icon-arrow">
+                <use xlink:href="./assets/icons/sprite.svg#arrow-right"></use>
+              </svg>
+            </li>
+            <li class="navigation__item">
+              <svg class="navigation__icon">
+                <use xlink:href="./assets/icons/sprite.svg#promote"></use>
+              </svg>
+              <span class="navigation__text">Promote</span>
+              <svg class="navigation__icon-arrow">
+                <use xlink:href="./assets/icons/sprite.svg#arrow-right"></use>
+              </svg>
+            </li>
+            <li class="navigation__item">
+              <svg class="navigation__icon">
+                <use xlink:href="./assets/icons/sprite.svg#help"></use>
+              </svg>
+              <span class="navigation__text">Help</span>
+              <svg class="navigation__icon-arrow">
+                <use xlink:href="./assets/icons/sprite.svg#arrow-right"></use>
+              </svg>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__user-info">
+          <img
+            class="user-info__photo"
+            srcset="../assets/images/avatar.jpg 1x, ./assets/images/avatar@2x.jpg 2x"
+            src="./assets/images/avatar.jpg"
+            alt="User Photo"
+          />
+          <div class="user-info">
+            <span class="user-info__login">Evano</span>
+            <span class="user-info__role">Project Manager</span>
           </div>
         </div>
-      </section>
-    </main>
+        <!-- </div> -->
+      </header>
+      <main>
+        <section class="content">
+          <h2 class="content__login">Hello Evano 👋🏼,</h2>
+          <div class="content__header">
+            <div class="content__header-info">
+              <div class="content__title">All Customers</div>
+              <div class="content__subtitle">Active Members</div>
+            </div>
+            <div class="content__search">
+              <svg class="content__search-icon">
+                <use xlink:href="./assets/icons/sprite.svg#search"></use>
+              </svg>
+              <input type="text" placeholder="Search" />
+            </div>
+          </div>
+
+          <div class="data-table">
+            <table class="table">
+              <thead class="table__head">
+                <tr class="table__row">
+                  <th class="table__header">Customer Name</th>
+                  <th class="table__header">Company</th>
+                  <th class="table__header">Phone number</th>
+                  <th class="table__header">Email</th>
+                  <th class="table__header">Country</th>
+                  <th class="table__header">Status</th>
+                </tr>
+              </thead>
+              <tbody class="table__body">
+                <tr class="table__row">
+                  <td class="table__cell">John Doe</td>
+                  <td class="table__cell">ABC Inc.</td>
+                  <td class="table__cell">123456789</td>
+                  <td class="table__cell">johndoe@example.com</td>
+                  <td class="table__cell">USA</td>
+                  <td class="table__cell">
+                    <button class="status-btn status-btn--active">Active</button>
+                  </td>
+                </tr>
+                <!-- Add more rows here -->
+              </tbody>
+            </table>
+          </div>
+          <div class="data-info">
+            <p class="data-info__text">Showing data 1 to 8 of 256K entries</p>
+            <div class="pagination">
+              <button class="pagination__button">&#10094;</button>
+              <span class="pagination__page">1</span>
+              <span class="pagination__page">2</span>
+              <span class="pagination__page">3</span>
+              <span class="pagination__page">4</span>
+              <span class="pagination__page">...</span>
+              <span class="pagination__page">40</span>
+              <button class="pagination__button">&#10095;</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>

@@ -9,3 +9,11 @@ body {
   color: var(--primary-text-color);
   background-color: var(--background-color);
 }
+
+.container {
+  @media screen and (min-width: 1440px) {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+  }
+}

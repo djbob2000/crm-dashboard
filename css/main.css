@@ -1,4 +1,5 @@
 :root {
+  --primary-font: font-family: "Poppins";
   --primary-text-color: #292d32;
   --nav-text-color: #9197b3;
   --title-text-color: #000;
@@ -9,6 +10,9 @@
   --secondary-background-color: #fafbff;
   --active-background: #5932ea;
   --icon-color: #9197b3;
+  --search-icon-color: #7e7e7e;
+  --search-input-color: #f9fbff;
+  --search-placeholder-color: #b5b7c0;
   --text-role-color: #757575;
 }
 
@@ -26,6 +30,7 @@ html {
 
 body {
   margin: 0;
+  height: 100%;
 }
 
 h1,
@@ -79,6 +84,16 @@ body {
   letter-spacing: -0.14px;
   color: var(--primary-text-color);
   background-color: var(--background-color);
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .header {
@@ -234,15 +249,81 @@ body {
 
 .content {
   background-color: var(--secondary-background-color);
+  height: 100vh;
+  padding-left: 71px;
+  padding-right: 95px;
+  padding-top: 41px;
+}
+.content__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: red;
+  padding: 30px 53px 40px 38px;
+}
+.content__title {
+  margin-bottom: 6px;
+  font-size: 1.375rem;
+  font-weight: 600;
+}
+.content__subtitle {
+  font-size: 0.875rem;
+  color: #16c098;
+}
+.content__search {
+  position: relative;
+}
+.content__search input {
+  padding: 10px 16px 10px 40px;
+  background-color: #f9fbff;
+  border-radius: 10px;
+  border: 0;
+  font-size: 12px;
+  font-family: var(--primary-font);
+  color: var(--search-input-color);
+}
+.content__search input::-webkit-input-placeholder {
+  color: var(--search-placeholder-color);
+}
+.content__search input::-moz-placeholder {
+  color: var(--search-placeholder-color);
+}
+.content__search input:-ms-input-placeholder {
+  color: var(--search-placeholder-color);
+}
+.content__search input::-ms-input-placeholder {
+  color: var(--search-placeholder-color);
+}
+.content__search input::placeholder {
+  color: var(--search-placeholder-color);
+}
+.content__search-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--search-icon-color);
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 8px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .content__login {
   font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 51px;
   color: var(--title-text-color);
   /* Login text styles */
 }
 
-.content__search-bar {
+.content__search {
   /* Search bar styles */
 }
 

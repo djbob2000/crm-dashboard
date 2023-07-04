@@ -1,4 +1,5 @@
 :root {
+  --primary-font: font-family: 'Poppins';
   --primary-text-color: #292d32;
   --nav-text-color: #9197b3;
   --title-text-color: #000;
@@ -9,5 +10,9 @@
   --secondary-background-color: #fafbff;
   --active-background: #5932ea;
   --icon-color: #9197b3;
+  --search-icon-color: #7e7e7e;
+  --search-input-color: #f9fbff;
+  --search-placeholder-color: #b5b7c0;
+
   --text-role-color: #757575;
 }
