@@ -18,7 +18,7 @@
 
 .logo {
   display: flex;
-  margin-bottom: 64px;
+  margin-bottom: 38px;
   // // justify-content: center;
 }
 .logo__wrap {
@@ -68,7 +68,7 @@
     align-items: center;
     padding: 11px 8px 11px 11px;
     border-radius: 8px;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
     fill: var(--icon-color);
     color: var(--nav-text-color);
 
@@ -124,138 +124,4 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.12px;
-}
-
-.content {
-  background-color: var(--secondary-background-color);
-  height: 100vh;
-  padding-left: 71px;
-  padding-right: 95px;
-  padding-top: 41px;
-
-  &__header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: red;
-
-    padding: 30px 53px 40px 38px;
-  }
-  &__title {
-    margin-bottom: 6px;
-
-    font-size: 1.375rem;
-    font-weight: 600;
-  }
-
-  &__subtitle {
-    font-size: 0.875rem;
-    color: #16c098;
-  }
-
-  &__search {
-    position: relative;
-
-    input {
-      padding: 10px 16px 10px 40px;
-      background-color: #f9fbff;
-      border-radius: 10px;
-      border: 0;
-
-      font-size: 12px;
-      font-family: var(--primary-font);
-      color: var(--search-input-color);
-
-      &::placeholder {
-        color: var(--search-placeholder-color);
-      }
-    }
-  }
-
-  &__search-icon {
-    width: 24px;
-    height: 24px;
-    fill: var(--search-icon-color);
-    position: absolute;
-    z-index: 2;
-    top: 50%;
-    left: 8px;
-    transform: translateY(-50%);
-  }
-}
-
-.content__login {
-  font-size: 24px;
-  line-height: 1.5;
-  margin-bottom: 51px;
-  color: var(--title-text-color);
-  /* Login text styles */
-}
-
-.content__search {
-  /* Search bar styles */
-}
-
-.search-bar__input {
-  /* Search input styles */
-}
-
-.search-bar__icon {
-  /* Search icon styles */
-}
-
-.data-table {
-  /* Data table styles */
-}
-
-.table {
-  /* Table styles */
-}
-
-.table__head {
-  /* Table header styles */
-}
-
-.table__row {
-  /* Table row styles */
-}
-
-.table__header {
-  /* Table header cell styles */
-}
-
-.table__body {
-  /* Table body styles */
-}
-
-.table__cell {
-  /* Table cell styles */
-}
-
-.status-btn {
-  /* Status button styles */
-}
-
-.status-btn--active {
-  /* Active status button styles */
-}
-
-.data-info {
-  /* Data info styles */
-}
-
-.data-info__text {
-  /* Data info text styles */
-}
-
-.pagination {
-  /* Pagination styles */
-}
-
-.pagination__button {
-  /* Pagination button styles */
-}
-
-.pagination__page {
-  /* Pagination page styles */
 }

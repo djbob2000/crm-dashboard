@@ -97,9 +97,9 @@
         </div>
         <!-- </div> -->
       </header>
-      <main>
+      <main class="main">
+        <h2 class="content__login">Hello Evano 👋🏼,</h2>
         <section class="content">
-          <h2 class="content__login">Hello Evano 👋🏼,</h2>
           <div class="content__header">
             <div class="content__header-info">
               <div class="content__title">All Customers</div>
@@ -112,46 +112,84 @@
               <input type="text" placeholder="Search" />
             </div>
           </div>
+          <div class="table">
+            <div class="table__inner">
+              <div class="table__header table__row">
+                <div class="table__header-item">Customer Name</div>
+                <div class="table__header-item">Company</div>
+                <div class="table__header-item">Phone Number</div>
+                <div class="table__header-item">Email</div>
+                <div class="table__header-item">Country</div>
+                <div class="table__header-item">Status</div>
+              </div>
 
-          <div class="data-table">
-            <table class="table">
-              <thead class="table__head">
-                <tr class="table__row">
-                  <th class="table__header">Customer Name</th>
-                  <th class="table__header">Company</th>
-                  <th class="table__header">Phone number</th>
-                  <th class="table__header">Email</th>
-                  <th class="table__header">Country</th>
-                  <th class="table__header">Status</th>
-                </tr>
-              </thead>
-              <tbody class="table__body">
-                <tr class="table__row">
-                  <td class="table__cell">John Doe</td>
-                  <td class="table__cell">ABC Inc.</td>
-                  <td class="table__cell">123456789</td>
-                  <td class="table__cell">johndoe@example.com</td>
-                  <td class="table__cell">USA</td>
-                  <td class="table__cell">
-                    <button class="status-btn status-btn--active">Active</button>
-                  </td>
-                </tr>
-                <!-- Add more rows here -->
-              </tbody>
-            </table>
-          </div>
-          <div class="data-info">
-            <p class="data-info__text">Showing data 1 to 8 of 256K entries</p>
-            <div class="pagination">
-              <button class="pagination__button">&#10094;</button>
-              <span class="pagination__page">1</span>
-              <span class="pagination__page">2</span>
-              <span class="pagination__page">3</span>
-              <span class="pagination__page">4</span>
-              <span class="pagination__page">...</span>
-              <span class="pagination__page">40</span>
-              <button class="pagination__button">&#10095;</button>
+              <div class="table__content">
+                <div class="table__customer table__row">
+                  <div class="table__item">Marvin McKinney</div>
+                  <div class="table__item">Facebook</div>
+                  <div class="table__item">(704) 555-0127</div>
+                  <div class="table__item">kristin@facebook.com</div>
+                  <div class="table__item">Åland Islands</div>
+                  <div class="table__item">
+                    <div class="table__status active">Inactive</div>
+                  </div>
+                </div>
+              </div>
+              <div class="table__content">
+                <div class="table__customer table__row">
+                  <div class="table__item">Marvin McKinney</div>
+                  <div class="table__item">Facebook</div>
+                  <div class="table__item">(704) 555-0127</div>
+                  <div class="table__item">kristin@facebook.com</div>
+                  <div class="table__item">Åland Islands</div>
+                  <div class="table__item">
+                    <div class="table__status inactive">Inactive</div>
+                  </div>
+                </div>
+              </div>
+              <div class="table__content">
+                <div class="table__customer table__row">
+                  <div class="table__item">Marvin McKinney</div>
+                  <div class="table__item">Facebook</div>
+                  <div class="table__item">(704) 555-0127</div>
+                  <div class="table__item">kristin@facebook.com</div>
+                  <div class="table__item">Åland Islands</div>
+                  <div class="table__item">
+                    <div class="table__status inactive">Inactive</div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+
+          <div class="customers-pagination">
+            <div class="customers-pagination__info">Showing data 1 to 8 of 256K entries</div>
+            <ul class="customers-pagination__numbers pagination-list">
+              <li class="pagination-list__item">
+                <a href="#prev">&#10094;</a>
+              </li>
+              <li class="pagination-list__item pagination-item__active">
+                <a href="#1">1</a>
+              </li>
+              <li class="pagination-list__item">
+                <a href="#2">2</a>
+              </li>
+              <li class="pagination-list__item">
+                <a href="#3">3</a>
+              </li>
+              <li class="pagination-list__item">
+                <a href="#4">4</a>
+              </li>
+              <li class="pagination-list__item">
+                <a href="#...">...</a>
+              </li>
+              <li class="pagination-list__item">
+                <a href="#40">40</a>
+              </li>
+              <li class="pagination-list__item">
+                <a href="#next">&#10095;</a>
+              </li>
+            </ul>
           </div>
         </section>
       </main>
