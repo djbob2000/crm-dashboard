@@ -178,7 +178,7 @@ body {
   fill: var(--icon-color);
   color: var(--nav-text-color);
 }
-.navigation__item:active, .navigation__item:hover {
+.navigation__item:active, .navigation__item:hover, .navigation__item.active {
   -webkit-transition: background-color 200ms ease-in-out;
   transition: background-color 200ms ease-in-out;
   background-color: var(--active-background);

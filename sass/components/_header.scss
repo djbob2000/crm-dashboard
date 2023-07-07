@@ -65,7 +65,8 @@
     color: var(--nav-text-color);
 
     &:active,
-    &:hover {
+    &:hover,
+    &.active {
       transition: background-color 200ms ease-in-out;
 
       background-color: var(--active-background);
