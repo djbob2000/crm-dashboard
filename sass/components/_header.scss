@@ -9,60 +9,52 @@
   padding-bottom: 76px;
   background: #fff;
   box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.5);
-  /* header styles */
-}
-.header__container {
-  // width: 306px;
-  /* header styles */
+
+  &__user-info {
+    margin-top: auto;
+    display: flex;
+  }
 }
 
 .logo {
   display: flex;
   margin-bottom: 38px;
-  // // justify-content: center;
-}
-.logo__wrap {
-  display: flex;
-  align-items: baseline;
-}
-.logo__icon {
-  width: 37px;
-  height: 37px;
-  margin-right: 8px;
-  fill: var(--logo-icon-color);
-}
-.logo__title {
-  color: #000;
-  font-size: 26px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: 0.26px;
-  margin-right: 4px;
-}
-.logo__version {
-  color: #838383;
-  font-size: 10px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: -0.1px;
 
-  // margin-top: auto;
-}
+  &__wrap {
+    display: flex;
+    align-items: baseline;
+  }
 
-.header__container {
-  padding: 0 28px;
-}
-.header__navigation {
-  /* Navigation styles */
+  &__icon {
+    width: 37px;
+    height: 37px;
+    margin-right: 8px;
+    fill: var(--logo-icon-color);
+  }
+
+  &__title {
+    color: #000;
+    font-size: 26px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.26px;
+    margin-right: 4px;
+  }
+
+  &__version {
+    color: #838383;
+    font-size: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.1px;
+  }
 }
 
 .navigation {
-  /* Navigation list styles */
-
   &__item {
     display: flex;
     align-items: center;
@@ -87,6 +79,7 @@
     height: 24px;
     margin-right: 14px;
   }
+
   &__icon-arrow {
     width: 16px;
     height: 16px;
@@ -96,32 +89,26 @@
     justify-content: center;
   }
 }
-.header__user-info {
-  margin-top: auto;
-  display: flex;
-}
 
 .user-info {
-  /* User info container styles */
-}
+  &__photo {
+    border-radius: 50%;
+    margin-right: 12px;
+  }
 
-.user-info__photo {
-  border-radius: 50%;
-  margin-right: 12px;
-}
+  &__login {
+    color: var(--title-text-color);
+    display: block;
+  }
 
-.user-info__login {
-  color: var(--title-text-color);
-  display: block;
-}
-
-.user-info__role {
-  display: block;
-  color: var(--text-role-color);
-  font-size: 12px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.12px;
+  &__role {
+    display: block;
+    color: var(--text-role-color);
+    font-size: 12px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+  }
 }
